@@ -1,1 +1,1 @@
-# oosaka-castle
+# osaka-castle
