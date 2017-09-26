@@ -60,11 +60,20 @@
         }
     </style>
     <style>
-body{
-    background-color: greenyellow;
-}
-</style>
+        body {
+            background-color: greenyellow;
+        }
+    </style>
+    <style>
+        @media screen and ( max-width:479px) {
+            p {
+                color: #f00;
+                /* 赤色 */
+            }
+        }
+    </style>
 </head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
 <body>
     <div class="container">
@@ -417,8 +426,7 @@ body{
                 </h2>
                 <h1>
                     <p>
-                        <input type="button" onclick="location.href='./top.html'" value="HOME"
-                            class="btn btn-info btn-lg">
+                        <input type="button" onclick="location.href='./top.html'" value="HOME" class="btn btn-info btn-lg">
                     </p>
                 </h1>
             </section>
