@@ -25,28 +25,23 @@
     }
 </style>
 <style>
-    @media screen and ( max-width:479px) {
-        p {
-            color: #f00;
-            /* 赤色 */
-        }
-    }
-</style>
-<style>
-    p {
-        color: #00f;
-        /* 青色 */
-    }
-    /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+        /* ウィンドウ幅が480px以上の場合に適用するCSS */
 
-    @media screen and ( max-width:479px) {
-        p {
-            color: #f00;
-            /* 赤色 */
+        @media screen and ( min-width:480px) {
+            p {
+                color: #00f;
+                /* 青色 */
+            }
         }
-    }
-</style>
+        /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
 
+        @media screen and ( max-width:479px) {
+            p {
+                color: #f00;
+                /* 赤色 */
+            }
+        }
+    </style>
 <body>
     <div class="container">
         <div align="center">
