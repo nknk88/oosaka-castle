@@ -17,6 +17,17 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107108000-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments) };
+        gtag('js', new Date());
+
+        gtag('config', 'UA-107108000-1');
+
+    </script>
+
 </head>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
@@ -24,24 +35,24 @@
         background-color: #E7533C;
     }
 </style>
- <style>
-        /* ウィンドウ幅が480px以上の場合に適用するCSS */
+<style>
+    /* ウィンドウ幅が480px以上の場合に適用するCSS */
 
-        @media screen and ( min-width:480px) {
-            p {
-                color: #00f;
-                /* 青色 */
-            }
+    @media screen and ( min-width:480px) {
+        p {
+            color: #00f;
+            /* 青色 */
         }
-        /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+    }
+    /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
 
-        @media screen and ( max-width:479px) {
-            p {
-                color: #f00;
-                /* 赤色 */
-            }
+    @media screen and ( max-width:479px) {
+        p {
+            color: #f00;
+            /* 赤色 */
         }
-    </style>
+    }
+</style>
 
 <body>
     <div class="container">
@@ -132,6 +143,7 @@
                     <input type="button" onclick="location.href='./top.html'" value="HOME" class="btn btn-info btn-lg">
                 </p>
             </h1>
+            <a href="#top" class="btn btn-info btn-lg">ページ最上部へ</a>
         </div>
     </div>
 </body>
