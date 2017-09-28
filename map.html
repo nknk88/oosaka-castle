@@ -25,7 +25,6 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-107108000-1');
-
     </script>
 
 </head>
@@ -43,6 +42,13 @@
         height: auto;
     }
 </style>
+<style>
+    .google-map { position: relative; width: 100%; /* 左右に余白が必要なら値を変更してもOK */ height: 0; padding-bottom: 56.25%; /* padding-topでもOK
+*/ overflow: hidden; } .google-map iframe { position: absolute; top: 0; left: 0; width: 100%; /* 必要であれば!importantを付けてください
+*/ height: 100%; /* 必要であれば!importantを付けてください */ }
+</style>
+
+
 
 <body>
     <div class="container">
@@ -50,8 +56,10 @@
             <h1>
                 大阪城　地図
                 <br>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13123.678795229534!2d135.5157686!3d34.68197610000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf01d07d5ca11e41!2z5aSn6Ziq5Z-O!5e0!3m2!1sja!2sjp!4v1503899297411"
-                    width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13123.678795229534!2d135.5157686!3d34.68197610000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf01d07d5ca11e41!2z5aSn6Ziq5Z-O!5e0!3m2!1sja!2sjp!4v1503899297411"
+                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
                 <br>最寄りの交通機関
             </h1>
             <h2>
