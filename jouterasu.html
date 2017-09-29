@@ -18,16 +18,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
     <style type="text/css">
-        .visual {
+        /*.visual {
             position: 100% auto;
         }
-
-
-        .visual_video {
+        /* .visual_video {
             position: absolute;
             top: 2.5%;
             left: 4%;
-        }
+        } */
         /*Video*/
 
         .visual_inner {
@@ -53,10 +51,7 @@
         }
 
         .visual_text {
-            position: absolute;
-            top: 100%;
-            left: 5%;
-            width: 100 px;
+            word-wrap: break-word;
         }
     </style>
     <style>
@@ -68,18 +63,12 @@
         /* ウィンドウ幅が480px以上の場合に適用するCSS */
 
         @media screen and ( min-width:480px) {
-            p {
-                color: #00f;
-                /* 青色 */
-            }
+            
         }
         /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
 
         @media screen and ( max-width:479px) {
-            p {
-                color: #f00;
-                /* 赤色 */
-            }
+            
         }
     </style>
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
@@ -88,9 +77,7 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments) };
         gtag('js', new Date());
-
         gtag('config', 'UA-107108000-1');
-
     </script>
 
 </head>
@@ -103,16 +90,17 @@
                 <ul id="slider"></ul>
                 <div class="visual_video">
                     <video id="main_video" heightclass="topVideo" loop="" autoplay="" data-src="https://www.jo-terrace.jp/wordpress/wp-content/themes/jo-terrace_v5/movie/mv.mp4"
-                        src="https://www.jo-terrace.jp/wordpress/wp-content/themes/jo-terrace_v5/movie/mv.mp4" style="width: 1180px; height: 100% auto; top: 0px; left: -32.6667px; opacity: 1;">
+                        src="https://www.jo-terrace.jp/wordpress/wp-content/themes/jo-terrace_v5/movie/mv.mp4" style="width: 100%; height: 100% auto; top: 0px; opacity: 1; margin: 10px 20px;">
                         <p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
                     </video>
                 </div>
+                <!--
                 <div class="visual_inner">
                     <bg><img src="jto_logo-1.png" alt="ロゴ"></bg>
                 </div>
                 <div class="visual_inner2">
                     <bg><img src="jto_catch-1.png" alt="キャチコピー"></bg>
-                </div>
+                </div>-->
             </section>
             <section class="visual_text">
                 <h2>
@@ -453,8 +441,8 @@
                 <a href="#top" class="btn btn-info btn-lg">ページ最上部へ</a>
             </section>
 
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
