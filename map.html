@@ -43,88 +43,129 @@
     }
 </style>
 <style>
-    .google-map { position: relative; width: 100%; /* 左右に余白が必要なら値を変更してもOK */ height: 0; padding-bottom: 56.25%; /* padding-topでもOK
-*/ overflow: hidden; } .google-map iframe { position: absolute; top: 0; left: 0; width: 100%; /* 必要であれば!importantを付けてください
-*/ height: 100%; /* 必要であれば!importantを付けてください */ }
+    .google-map {
+        position: relative;
+        width: 100%;
+        /* 左右に余白が必要なら値を変更してもOK */
+        height: 0;
+        padding-bottom: 56.25%;
+        /* padding-topでもOK
+*/
+        overflow: hidden;
+    }
+
+    .google-map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        /* 必要であれば!importantを付けてください
+*/
+        height: 100%;
+        /* 必要であれば!importantを付けてください */
+    }
 </style>
 
+<style>
+    h1 {
+        font-size: 2vw;
+        /* ビューポートの幅の6%で可変する */
+    }
 
+    h2 {
+        font-size: 2vw;
+        /* ビューポートの幅の6%で可変する */
+    }
+
+    h3 {
+        font-size: 2vw;
+        /* ビューポートの幅の6%で可変する */
+    }
+
+    p.vw {
+        font-size: 4.375vw;
+        /* ビューポートの幅の4.375%で可変する */
+    }
+</style>
 
 <body>
-    <div class="container">
-        <div align="center">
-            <h1>
-                大阪城　地図
-                <br>
-                <div class="google-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13123.678795229534!2d135.5157686!3d34.68197610000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf01d07d5ca11e41!2z5aSn6Ziq5Z-O!5e0!3m2!1sja!2sjp!4v1503899297411"
-                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-                <br>最寄りの交通機関
-            </h1>
-            <h2>
-                地下鉄
-            </h2>
-            <table class="table2" border="1" align="center">
-                <tr>
-                    <th>谷町線</th>
-                    <th>「谷町4丁目駅」9番出口　　「森ノ宮駅」1番出口、3-B番出口</th>
+    <p class="vw">
+        <div class="container">
+            <div align="center">
+                <h1>
+                    大阪城　地図
+                    <br>
+                    <div class="google-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13123.678795229534!2d135.5157686!3d34.68197610000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf01d07d5ca11e41!2z5aSn6Ziq5Z-O!5e0!3m2!1sja!2sjp!4v1503899297411"
+                            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <br>最寄りの交通機関
+                </h1>
+                <h2>
+                    地下鉄
+                </h2>
+                <table class="table2" border="1" align="center">
+                    <tr>
+                        <th>谷町線</th>
+                        <th>「谷町4丁目駅」9番出口　　「森ノ宮駅」1番出口、3-B番出口</th>
 
-                </tr>
-                <tr>
-                    <th>中央線</th>
-                    <th>「谷町4丁目駅」1-B番出口　　「天満橋駅」3番出口</th>
-                </tr>
-                <tr>
-                    <th>長堀鶴見緑地線</th>
-                    <th>「森ノ宮駅」3-B出口　　「大阪ビジネスパーク駅」1番出口</th>
-                </tr>
-            </table>
-            <h2>
-                JR
-            </h2>
-            <table class="table2" border="1" align="center">
-                <tr>
-                    <th>大阪環状線</th>
-                    <th>森ノ宮駅　　大阪城公園駅</th>
-                </tr>
-                <tr>
-                    <th>東西線</th>
-                    <th>大阪城北詰駅</th>
-                </tr>
-            </table>
-            <h2>
-                京阪電車
-            </h2>
-            <table class="table2" border="1" align="center">
-                <tr>
-                    <th>　京阪電車　</th>
-                    <th>　　　　天満橋駅　　　　</th>
-                </tr>
-            </table>
-            <h2>市バス</h2>
-            <table class="table2" border="1" align="center">
-                <tr>
-                    <th>大阪城大手前<br>馬場町</th>
-                    <th>【62系統】大阪駅～淀屋橋～天満橋～大阪城大手前～馬場町～あべの橋～住吉車庫前</th>
-                </tr>
-            </table>
-            <h2>水上バス</h2>
-            <table class="table2" border="1" align="center">
-                <tr>
-                    <th>　水上バス　</th>
-                    <th>　　　　大阪城港　　　　</th>
-                </tr>
+                    </tr>
+                    <tr>
+                        <th>中央線</th>
+                        <th>「谷町4丁目駅」1-B番出口　　「天満橋駅」3番出口</th>
+                    </tr>
+                    <tr>
+                        <th>長堀鶴見緑地線</th>
+                        <th>「森ノ宮駅」3-B出口　　「大阪ビジネスパーク駅」1番出口</th>
+                    </tr>
+                </table>
+                <h2>
+                    JR
+                </h2>
+                <table class="table2" border="1" align="center">
+                    <tr>
+                        <th>大阪環状線</th>
+                        <th>森ノ宮駅　　大阪城公園駅</th>
+                    </tr>
+                    <tr>
+                        <th>東西線</th>
+                        <th>大阪城北詰駅</th>
+                    </tr>
+                </table>
+                <h2>
+                    京阪電車
+                </h2>
+                <table class="table2" border="1" align="center">
+                    <tr>
+                        <th>　京阪電車　</th>
+                        <th>　　　　天満橋駅　　　　</th>
+                    </tr>
+                </table>
+                <h2>市バス</h2>
+                <table class="table2" border="1" align="center">
+                    <tr>
+                        <th>大阪城大手前
+                            <br>馬場町</th>
+                        <th>【62系統】大阪駅～淀屋橋～天満橋～大阪城大手前～馬場町～あべの橋～住吉車庫前</th>
+                    </tr>
+                </table>
+                <h2>水上バス</h2>
+                <table class="table2" border="1" align="center">
+                    <tr>
+                        <th>　水上バス　</th>
+                        <th>　　　　大阪城港　　　　</th>
+                    </tr>
 
-            </table>
-            <h1>
-                <p>
-                    <input type="button" onclick="location.href='./top.html'" value="HOME" class="btn btn-info btn-lg">
-                </p>
-            </h1>
-            <a href="#top" class="btn btn-info btn-lg">ページ最上部へ</a>
+                </table>
+                <h1>
+                    <p>
+                        <input type="button" onclick="location.href='./top.html'" value="HOME" class="btn btn-info btn-lg">
+                    </p>
+                </h1>
+                <a href="#top" class="btn btn-info btn-lg">ページ最上部へ</a>
+            </div>
         </div>
-    </div>
+    </p>
 </body>
 
 </html>
