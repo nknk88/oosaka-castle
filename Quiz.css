@@ -1,32 +1,75 @@
-body{
-  background-image: url("Topbg.jpg");
-}
+<!DOCTYPE html>
+<html lang="ja">
 
-h1 {
-  font-size: 130%;
-}
+<head>
 
-h2 {
-  font-size: 100%;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>大阪城</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
 
-table {
-  border-collapse: collapse;
-}
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
 
-th, td {
-  border: 1px solid gray;
-}
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107108000-1"></script>
 
-tr.true {
-  background-color: #ccffcc;
-}
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments) };
+        gtag('js', new Date());
 
-tr.false {
-  background-color: #ffcccc;
-}
- 
-#warning {
-  background-color: #ffcccc;
-}
+        gtag('config', 'UA-107108000-1');
+    </script>
+    <style>
+        @media only screen and (min-width: 686px) {
+            body {
+                background-image: url(8e1aaca9.jpg);
+            }
+        }
 
+        @media only screen and (max-width: 686px) {
+            body {
+                background-image: url(8e1aaca9-2.jpg);
+            }
+        }
+    </style>
+</head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<body>
+    <h1>
+        <font size="1000" color="#F44703">
+            大阪城
+        </font>
+    </h1>
+    <div align="left">
+        <p>
+            <input type="button" onclick="location.href='./castle.html'" value="大阪城天守閣" class="btn btn-info btn-lg">
+        </p>
+        <p>
+            <input type="button" onclick="location.href='./jouterasu.html'" value="JO-TERRACE OSAKA" class="btn btn-info btn-lg">
+        </p>  
+        <p>
+            <input type="button" onclick="location.href='./miraiza.html'" value="MIRAIZA" class="btn btn-info btn-lg">
+        </p>
+        <p>
+            <input type="button" onclick="location.href='./map.html'" value="MAP" class="btn btn-info btn-lg">
+        </p>
+      
+        <p>
+            <input type="button" onclick="location.href='./Quiz.html'" value="大阪城クイズ" class="btn btn-info btn-lg">
+        </p>
+    </div>
+
+</body>
+
+</html>
